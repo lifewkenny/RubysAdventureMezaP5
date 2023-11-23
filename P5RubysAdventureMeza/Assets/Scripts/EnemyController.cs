@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    public float speed = 3.0f;
+    public float speed;
     public bool vertical;
     public float changeTime = 3.0f;
 
@@ -49,6 +49,9 @@ public class EnemyController : MonoBehaviour
 
         }
         Vector2 position = rigidbody2d.position;
+        position.x = position.x + Time.deltaTime * speed;
+    
+        rigidbody2d.MovePosition(position);
         if(vertical)
         {
             animator.SetFloat("Move X", 0);
