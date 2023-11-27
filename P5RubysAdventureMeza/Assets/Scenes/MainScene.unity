@@ -59991,6 +59991,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bot
       objectReference: {fileID: 0}
+    - target: {fileID: 3136023572857845354, guid: 1f26b7e9db41e8f468dfafd5f154d0a2, type: 3}
+      propertyPath: vertical
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5868598516541109116, guid: 1f26b7e9db41e8f468dfafd5f154d0a2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.153985
@@ -60029,6 +60033,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5868598516541109116, guid: 1f26b7e9db41e8f468dfafd5f154d0a2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8451986552019217403, guid: 1f26b7e9db41e8f468dfafd5f154d0a2, type: 3}
+      propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
