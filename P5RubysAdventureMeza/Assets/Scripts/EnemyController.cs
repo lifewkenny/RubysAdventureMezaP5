@@ -49,7 +49,7 @@ public class EnemyController : MonoBehaviour
 
         }
         Vector2 position = rigidbody2d.position;
-        position.x = position.x + Time.deltaTime * speed;
+        
     
         rigidbody2d.MovePosition(position);
         if(vertical)

@@ -9,7 +9,7 @@ public class UIHealthBar : MonoBehaviour
    
     public Image mask;
     float originalSize;
-     void Awake()
+    private void Awake()
     {
         instance = this;
     }
