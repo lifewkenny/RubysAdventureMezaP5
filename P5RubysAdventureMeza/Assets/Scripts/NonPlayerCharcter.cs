@@ -28,7 +28,7 @@ public class NonPlayerCharcter : MonoBehaviour
         }
     }
 
-    public void OnDisable()
+    public void displayDialog()
     {
         timerDisplay = displayTime;
         dialogBox.SetActive(true);

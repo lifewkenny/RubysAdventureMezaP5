@@ -100,10 +100,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8f164747afdf86458bf00f39d66f98a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 7
   maxHealth: 5
   projectilePrefab: {fileID: 3052691096353372183, guid: 11e0e83a16f3f8a409a3df93ca361ad9, type: 3}
   timeInvincible: 2
+  throwSound: {fileID: 8300000, guid: b2edfd40873655249ba0e01a5cf705be, type: 3}
+  hitSound: {fileID: 8300000, guid: 9b1bb1f450b7d444fa4a8019d13519a7, type: 3}
 --- !u!50 &7293909952995312166
 Rigidbody2D:
   serializedVersion: 4
